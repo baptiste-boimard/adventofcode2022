@@ -1,0 +1,15 @@
+/home/baptiste/RiderProjects/AdventofCode/Day1/bin/Debug/net8.0/Day1
+/home/baptiste/RiderProjects/AdventofCode/Day1/bin/Debug/net8.0/Day1.deps.json
+/home/baptiste/RiderProjects/AdventofCode/Day1/bin/Debug/net8.0/Day1.runtimeconfig.json
+/home/baptiste/RiderProjects/AdventofCode/Day1/bin/Debug/net8.0/Day1.dll
+/home/baptiste/RiderProjects/AdventofCode/Day1/bin/Debug/net8.0/Day1.pdb
+/home/baptiste/RiderProjects/AdventofCode/Day1/obj/Debug/net8.0/Day1.GeneratedMSBuildEditorConfig.editorconfig
+/home/baptiste/RiderProjects/AdventofCode/Day1/obj/Debug/net8.0/Day1.AssemblyInfoInputs.cache
+/home/baptiste/RiderProjects/AdventofCode/Day1/obj/Debug/net8.0/Day1.AssemblyInfo.cs
+/home/baptiste/RiderProjects/AdventofCode/Day1/obj/Debug/net8.0/Day1.csproj.CoreCompileInputs.cache
+/home/baptiste/RiderProjects/AdventofCode/Day1/obj/Debug/net8.0/Day1.sourcelink.json
+/home/baptiste/RiderProjects/AdventofCode/Day1/obj/Debug/net8.0/Day1.dll
+/home/baptiste/RiderProjects/AdventofCode/Day1/obj/Debug/net8.0/refint/Day1.dll
+/home/baptiste/RiderProjects/AdventofCode/Day1/obj/Debug/net8.0/Day1.pdb
+/home/baptiste/RiderProjects/AdventofCode/Day1/obj/Debug/net8.0/Day1.genruntimeconfig.cache
+/home/baptiste/RiderProjects/AdventofCode/Day1/obj/Debug/net8.0/ref/Day1.dll
