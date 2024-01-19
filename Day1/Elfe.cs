@@ -45,7 +45,7 @@ public class Elfe
         // Console.WriteLine(listInput.Count);
         
         // Autre manière de le faire
-        listInput.ForEach(i => Console.Write("{0}\t", i));
+        // listInput.ForEach(i => Console.Write("{0}\t", i));
         
         // Créer une variable qui stocke temporairement le total pour chaque elfe
         int totalElfe = 0;
@@ -58,14 +58,14 @@ public class Elfe
             
             if (string.IsNullOrWhiteSpace(listInput[i]))
             {
-                Console.WriteLine(listInput[i]);
+                // Console.WriteLine(listInput[i]);
                 listTotalElfe.Add(totalElfe);
-                Console.WriteLine("total section" + totalElfe);
+                // Console.WriteLine("total section" + totalElfe);
                 totalElfe = 0;
             }
             else
             {
-                Console.WriteLine(listInput[i]);
+                // Console.WriteLine(listInput[i]);
                 int listInputIntConvert = int.Parse(listInput[i]);
                 totalElfe += listInputIntConvert;
                 // Console.WriteLine("total partiel" + totalElfe);
@@ -74,9 +74,25 @@ public class Elfe
         // On recherche la valeur max de la liste des total pour chaque elfe
         int maxValueForOneElfe = listTotalElfe.Max();
         
-        Console.WriteLine("Le max est " + maxValueForOneElfe);
+        Console.WriteLine("Le max transporté par un elfe est " + maxValueForOneElfe);
+        
+        // Créée variable qui totalise la somme des calories des 3 + gros porteurs
+        int sommeDes3PlusGrosElfe = 0;
 
-
+        //Itération sur la liste des totaux pour trouver le max
+        // on l'ajoute à la somme puis on le delete de la liste
+        // on refait l'opération 2 fois pour avoir les 3 1er
+        for (int j = 0; j < 3; j++)
+        {
+            int maxValueOfList = listTotalElfe.Max();
+            sommeDes3PlusGrosElfe += maxValueOfList;
+            listTotalElfe.Remove(maxValueOfList);
+            
+            Console.WriteLine($"Elfe N°{j+1} => total = {sommeDes3PlusGrosElfe}");
+            
+        }
+        
+        Console.WriteLine("Les Calories portées par les 3 + gros sont de : " + sommeDes3PlusGrosElfe);
 
     }
 }
