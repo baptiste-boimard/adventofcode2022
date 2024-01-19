@@ -1,0 +1,15 @@
+/home/punky/Code/Projets/adventofcode2022/Day2/bin/Debug/net8.0/Day2
+/home/punky/Code/Projets/adventofcode2022/Day2/bin/Debug/net8.0/Day2.deps.json
+/home/punky/Code/Projets/adventofcode2022/Day2/bin/Debug/net8.0/Day2.runtimeconfig.json
+/home/punky/Code/Projets/adventofcode2022/Day2/bin/Debug/net8.0/Day2.dll
+/home/punky/Code/Projets/adventofcode2022/Day2/bin/Debug/net8.0/Day2.pdb
+/home/punky/Code/Projets/adventofcode2022/Day2/obj/Debug/net8.0/Day2.GeneratedMSBuildEditorConfig.editorconfig
+/home/punky/Code/Projets/adventofcode2022/Day2/obj/Debug/net8.0/Day2.AssemblyInfoInputs.cache
+/home/punky/Code/Projets/adventofcode2022/Day2/obj/Debug/net8.0/Day2.AssemblyInfo.cs
+/home/punky/Code/Projets/adventofcode2022/Day2/obj/Debug/net8.0/Day2.csproj.CoreCompileInputs.cache
+/home/punky/Code/Projets/adventofcode2022/Day2/obj/Debug/net8.0/Day2.sourcelink.json
+/home/punky/Code/Projets/adventofcode2022/Day2/obj/Debug/net8.0/Day2.dll
+/home/punky/Code/Projets/adventofcode2022/Day2/obj/Debug/net8.0/refint/Day2.dll
+/home/punky/Code/Projets/adventofcode2022/Day2/obj/Debug/net8.0/Day2.pdb
+/home/punky/Code/Projets/adventofcode2022/Day2/obj/Debug/net8.0/Day2.genruntimeconfig.cache
+/home/punky/Code/Projets/adventofcode2022/Day2/obj/Debug/net8.0/ref/Day2.dll
