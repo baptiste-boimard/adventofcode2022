@@ -3,9 +3,9 @@ using System.IO;
 using System.Collections.Generic;
 using System.Runtime.Intrinsics.X86;
 
-public class Pierre
+public class Pierre2
 {
-    static void Main2()
+    static void Main()
     {
         
         // récupère le fichier texte
@@ -50,38 +50,48 @@ public class Pierre
             switch (playMe)
             {
                 case 'X':
-                    myScore += 1;
+                    myScore += 0;
                     switch (playElfe)
                     {
                         case 'A':
                             myScore += 3;
                             break;
+                        case 'B':
+                            myScore += 1;
+                            break;
                         case 'C':
-                            myScore += 6;
+                            myScore += 2;
                             break;
                     }
                     break;
                 case 'Y':
-                    myScore += 2;
+                    myScore += 3;
                     switch (playElfe)
                     {
-                        case 'B':
-                            myScore += 3;
-                            break;
+                        
                         case 'A':
-                            myScore += 6;
+                            myScore += 1;
+                            break;
+                        case 'B':
+                            myScore += 2;
+                            break;
+                        case 'C':
+                            myScore += 3;
                             break;
                     }
                     break;
                 case 'Z':
-                    myScore += 3;
+                    myScore += 6;
                     switch (playElfe)
                     {
-                        case 'C':
-                            myScore += 3;
+                        case 'A':
+                            myScore += 2;
                             break;
                         case 'B':
-                            myScore += 6;
+                            myScore += 3;
+                            break;
+                        case 'C':
+                            myScore += 1;
                             break;
                     }
                     break;
