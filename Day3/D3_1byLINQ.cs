@@ -29,7 +29,7 @@ class D3_1byLINQ
             sum += GetCharIndex(found);
         }
 
-        Console.WriteLine($"Resultat : {sum}");
+        Console.WriteLine($"Résultat : {sum}");
     }
 
     private static int GetCharIndex(char c)
