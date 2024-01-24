@@ -9,7 +9,7 @@ namespace Day3;
 
 public class Program
 {
-    static void Main()
+    static void Main2()
     {
         
         // récupère le fichier texte
@@ -25,24 +25,23 @@ public class Program
 
         // Création d'un tableau avec les entrées de chaque ligne du fichier
         string[] listInput = File.ReadAllText(inputPath).Split("\n").ToArray();
-
-        // foreach (var s in listInput)
-        // {
-        //     Console.WriteLine(s.Length);
-        // }
+        
+        // On définit notre variable sum qui récupére la somme de chaque priorité
+        int sum = 0;
         
         // foreach pour traiter chaque index un par un
         foreach (var s in listInput)
         {   
             // Coupe la string en 2 morceaux
-            Console.WriteLine(s.Length);
+            // Console.WriteLine(s.Length);
             string split1 = s.Substring(0, s.Length / 2);
             string split2 = s.Substring(s.Length / 2);
             Console.WriteLine($"{split1} /// {split2}");
             
             // Cherche le caractere commmun
             var caractereCommun = split1.Intersect(split2);
-            Console.WriteLine(string.Join("", caractereCommun));
+            // Console.WriteLine(string.Join("", caractereCommun));
+            char[] result = caractereCommun.ToArray();
             
             // Attribution d'une valeur au caracrete
             char[] lettres = new char[26 * 2];
@@ -56,11 +55,14 @@ public class Program
             {
                 lettres[i + 26] = (char)('A' + i);
             }
-            //recherche dans le liste de lettres une correspondance avec le caractére commun
+            //recherche dans la liste de lettres une correspondance avec le caractére commun
             // on en resort l'index + 1 qui réprésentera la prioriété
-            int priorite = Array.IndexOf(lettres, caractereCommun);
-            Console.WriteLine($"Priorite : {priorite}");
+            int priorite = Array.IndexOf(lettres, result[0]) + 1;
+            sum += priorite;
+            // Console.WriteLine($"Priorite : {priorite}");
         }
+        
+        Console.WriteLine(sum);
         
     }
 }
