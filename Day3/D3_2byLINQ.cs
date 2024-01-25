@@ -7,35 +7,45 @@ namespace Day3;
 
 class D3_2byLINQ
 {
-    static void Main2()
+    static void Main()
     {
         // Path de notre fichier d'input
         string inputPath = "../../../input.txt";
 
-        var split3Lines = File.ReadAllText(inputPath)
+        int count = 0;
+
+        var splitLines = File.ReadAllText(inputPath)
             .Split("\n")
             .TakeWhile(j => !string.IsNullOrWhiteSpace(j))
-            .Select(line =>
-            {
-                for (int i = 0; i < 3; i++)
-                {
-                    
-                }
-                // return new string[] { };
-            })
             .ToArray();
 
+        List<string[]> split3Lines = new List<string[]>();
+        
+        while (count < splitLines.Length)
+        {
+            split3Lines.Add(
+                splitLines[count .. (count + 3)]
+                );
+            count += 3;
+        }
 
-        // int sum = 0;
-        //
-        // foreach (var splitLine in splitLines)
-        // {
-        //     char found = splitLine[0].Intersect(splitLine[1]).First();
-        //     
-        //     sum += GetCharIndex(found);
-        // }
-        //
-        // Console.WriteLine($"Résultat : {sum}");
+        foreach (var split3Line in split3Lines)
+        {
+            Console.WriteLine($" Lot de 3 : {split3Line[0]} /// {split3Line[1]} /// {split3Line[2]}");
+        }
+
+
+        int sum = 0;
+
+        foreach (var split3Line in split3Lines)
+        {
+            char found = split3Line[0].Intersect(split3Line[1]).Intersect(split3Line[2]).First();
+
+            sum += GetCharIndex(found);
+        }
+        
+        Console.WriteLine($"Résultat : {sum}");
+        
     }
 
     private static int GetCharIndex(char c)

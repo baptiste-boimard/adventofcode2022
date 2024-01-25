@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/home/punky/Code/Projets/adventofcode2022/Day3/Day3.csproj": {}
+    "/home/baptiste/RiderProjects/AdventofCode/Day3/Day3.csproj": {}
   },
   "projects": {
-    "/home/punky/Code/Projets/adventofcode2022/Day3/Day3.csproj": {
+    "/home/baptiste/RiderProjects/AdventofCode/Day3/Day3.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/punky/Code/Projets/adventofcode2022/Day3/Day3.csproj",
+        "projectUniqueName": "/home/baptiste/RiderProjects/AdventofCode/Day3/Day3.csproj",
         "projectName": "Day3",
-        "projectPath": "/home/punky/Code/Projets/adventofcode2022/Day3/Day3.csproj",
-        "packagesPath": "/home/punky/.nuget/packages/",
-        "outputPath": "/home/punky/Code/Projets/adventofcode2022/Day3/obj/",
+        "projectPath": "/home/baptiste/RiderProjects/AdventofCode/Day3/Day3.csproj",
+        "packagesPath": "/home/baptiste/.nuget/packages/",
+        "outputPath": "/home/baptiste/RiderProjects/AdventofCode/Day3/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/punky/.nuget/NuGet/NuGet.Config"
+          "/home/baptiste/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"

@@ -7,7 +7,7 @@ namespace Day3;
 
 class D3_1byLINQ
 {
-    static void Main()
+    static void Main2()
     {
         // Path de notre fichier d'input
         string inputPath = "../../../input.txt";
